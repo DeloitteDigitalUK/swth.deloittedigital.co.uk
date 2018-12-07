@@ -1,0 +1,54 @@
+{
+  "name": "swth.deloitte.co.uk",
+  "description": "South West Technology Hub",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "lint": "yarn eslint",
+    "eslint": "eslint src --ext js,jsx",
+    "eslint:fix": "yarn lint --fix",
+    "stylelint": "stylelint src/**/*.scss src/**/*.module.scss src/**/*.css src/**/*.module.css",
+    "stylelint:fix": "yarn stylelint --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,scss}\""
+  },
+  "dependencies": {
+    "gatsby": "^2.0.33",
+    "gatsby-link": "^2.0.6",
+    "gatsby-plugin-manifest": "^2.0.7",
+    "gatsby-plugin-offline": "^2.0.12",
+    "gatsby-plugin-react-helmet": "^3.0.1",
+    "gatsby-plugin-sass": "^2.0.3",
+    "gatsby-plugin-sharp": "^2.0.12",
+    "gatsby-react-router-scroll": "^2.0.1",
+    "gatsby-source-filesystem": "^2.0.7",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "node-sass": "^4.10.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.2.0",
+    "prettier": "^1.15.2",
+    "pretty-quick": "^1.8.0",
+    "stylelint": "^9.9.0",
+    "stylelint-config-airbnb": "^0.0.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.4.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
