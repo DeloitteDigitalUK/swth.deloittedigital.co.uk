@@ -1,4 +1,7 @@
 {
+  "env": {
+    "browser": true
+  },
   "extends": "airbnb",
   "parser": "babel-eslint",
   "rules": {
@@ -15,6 +18,15 @@
         "imports": "ignore",
         "exports": "ignore",
         "functions": "ignore"
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "required": {
+          "every": "id"
+        },
+        "allowChildren": true
       }
     ]
   }

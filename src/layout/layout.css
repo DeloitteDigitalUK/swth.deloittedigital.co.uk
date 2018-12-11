@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -47,6 +47,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #000;
 }
 
 a:active,
@@ -222,7 +223,6 @@ textarea {
 }
 
 html {
-  font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -241,7 +241,6 @@ html {
 
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

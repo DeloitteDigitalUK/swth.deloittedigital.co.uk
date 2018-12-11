@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 40px;
+}
+
+.description {
+  color: #4a4a4a;
+}
+
+.closeButton {
+  margin-left: auto;
+}
+
+.formSection {
+  background-color: #ebebeb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.formApplySection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

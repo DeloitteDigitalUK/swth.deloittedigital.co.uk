@@ -1,0 +1,14 @@
+.logo {
+  display: inline-block;
+  font-size: 0;
+  background-image: url('./images/dd-logo.png');
+  height: 57.5px;
+  width: 125px;
+  background-size: cover;
+
+  &:after {
+    // content: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.or…03.1%201%204.4C77%2078.5%2078.3%2079.1%2079.6%2078.9z%22%2F%3E%3C%2Fsvg%3E);
+    display: block;
+    width: 141px;
+  }
+}

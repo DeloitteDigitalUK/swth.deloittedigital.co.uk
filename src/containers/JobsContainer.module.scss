@@ -1,0 +1,41 @@
+.jobsContainer {
+  background: #f3f3f3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.positions {
+  margin: 0;
+  padding: 0;
+}
+
+.job {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.jobTitle {
+  display: inline;
+}
+
+.apply {
+  margin-left: auto;
+  border: 0;
+  color: #4a4a4a;
+  background: none;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.center {
+  text-align: center;
+}
