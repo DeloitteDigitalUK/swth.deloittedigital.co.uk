@@ -8,8 +8,7 @@
     "react/prop-types": 0,
     "global-require": 0,
     "react/jsx-one-expression-per-line": 0,
-    "arrow-parens": 0,
-    "implicit-arrow-linebreak": 0,
+    "react/jsx-wrap-multilines": 0,
     "comma-dangle": [
       "error",
       {
@@ -28,6 +27,10 @@
         },
         "allowChildren": true
       }
-    ]
+    ],
+    // Prettier conflicts
+    "arrow-parens": 0,
+    "implicit-arrow-linebreak": 0,
+    "object-curly-newline": 0
   }
 }

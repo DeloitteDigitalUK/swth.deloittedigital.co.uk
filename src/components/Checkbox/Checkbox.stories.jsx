@@ -4,7 +4,7 @@ import Checkbox from './Checkbox';
 
 storiesOf('Checkbox').add('default', () => (
   <Checkbox
-    label={(
+    label={
       <span>
         {"I've read your "}
         <a
@@ -24,6 +24,6 @@ storiesOf('Checkbox').add('default', () => (
         </a>
         .
       </span>
-)}
+    }
   />
 ));

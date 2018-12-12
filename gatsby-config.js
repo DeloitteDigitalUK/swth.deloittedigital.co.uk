@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Deloitte South West Technology Hub',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

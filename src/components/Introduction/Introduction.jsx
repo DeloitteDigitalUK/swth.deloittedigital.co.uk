@@ -8,7 +8,7 @@ const Introduction = () => (
   <WidthControl>
     <SideBySide
       left={<ImageCoveredWithBlocks />}
-      right={(
+      right={
         <div className={styles.right}>
           <h2>We are in the future business</h2>
           <p>
@@ -20,7 +20,7 @@ const Introduction = () => (
             the biggest businesses and brands in the world today.
           </p>
         </div>
-)}
+      }
     />
   </WidthControl>
 );

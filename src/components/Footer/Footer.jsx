@@ -13,9 +13,9 @@ const Footer = () => (
             <Logo />
           </>
         }
-        right={(
+        right={
           <SideBySide
-            left={(
+            left={
               <SideBySide
                 left={
                   <>
@@ -46,7 +46,7 @@ const Footer = () => (
                   </>
                 }
               />
-)}
+            }
             right={
               <>
                 <h4>Follow us</h4>
@@ -62,7 +62,7 @@ const Footer = () => (
               </>
             }
           />
-)}
+        }
       />
     </WidthControl>
   </div>

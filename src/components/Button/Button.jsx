@@ -4,9 +4,7 @@ import styles from './Button.module.scss';
 
 /* eslint-disable react/button-has-type */
 
-const Button = ({
-  children, onClick, buttonStyle, type = 'button',
-}) => (
+const Button = ({ children, onClick, buttonStyle, type = 'button' }) => (
   <span>
     <button
       onClick={onClick}

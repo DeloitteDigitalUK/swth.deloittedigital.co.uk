@@ -18,9 +18,8 @@ const JobForm = ({ jobId, onClose }) => {
       </div>
       <div className={styles.container}>
         <div className={styles.heading}>Dear Deloitte Technology Hub</div>
-        <div className={styles.heading}>{`I am interested in the role of ${
-          job.title
-        }, South West Tech Hub`}
+        <div className={styles.heading}>
+          {`I am interested in the role of ${job.title}, South West Tech Hub`}
         </div>
         {job.description.map(description => (
           <p className={styles.description}>{description}</p>
@@ -38,7 +37,7 @@ const JobForm = ({ jobId, onClose }) => {
           <Input type="text" placeholder="My url" />
           <Input type="text" placeholder="My LinkedIn url" />
           <Checkbox
-            label={(
+            label={
               <span>
                 {"I've read your "}
                 <a
@@ -58,7 +57,7 @@ const JobForm = ({ jobId, onClose }) => {
                 </a>
                 .
               </span>
-)}
+            }
           />
           <Checkbox label="I have the right to work in the UK." />
         </div>

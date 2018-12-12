@@ -23,7 +23,7 @@ const GetInTouch = () => (
             </p>
           </>
         }
-        right={(
+        right={
           <SideBySide
             left={
               <>
@@ -51,7 +51,7 @@ const GetInTouch = () => (
               </>
             }
           />
-)}
+        }
       />
     </WidthControl>
   </div>

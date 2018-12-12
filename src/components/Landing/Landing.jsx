@@ -13,9 +13,15 @@ const Landing = () => (
           <Logo />
         </div>
         <div className={styles.oval}>
-          <img alt="circle with shining light" src={require('./images/oval.png')} />
+          <img
+            alt="circle with shining light"
+            src={require('./images/oval.png')}
+          />
           <h1 className={styles.h1}>South West Technology Hub</h1>
-          <h2 className={styles.h2}>Delivered by <span className={styles.white}>Deloitte</span> and <span className={styles.white}>Deloitte Digital</span></h2>
+          <h2 className={styles.h2}>
+            Delivered by <span className={styles.white}>Deloitte</span> and{' '}
+            <span className={styles.white}>Deloitte Digital</span>
+          </h2>
         </div>
       </WidthControl>
     </div>
