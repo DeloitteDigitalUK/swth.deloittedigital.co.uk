@@ -64,7 +64,7 @@ const JobForm = ({ jobId, onClose }) => {
       </div>
       <div className={styles.formApplySection}>
         <div className={styles.container}>
-          <div className={styles.heading}>All the best for the future.</div>
+          <div className={styles.heading}>All the best for the future,</div>
           <div className={styles.center}>
             <Button buttonStyle="solid">Apply</Button>
           </div>
