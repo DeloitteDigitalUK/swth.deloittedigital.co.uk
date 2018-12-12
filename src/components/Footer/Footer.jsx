@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SideBySide from '../SideBySide';
 import WidthControl from '../WidthControl';
 import Logo from '../Logo';
@@ -15,50 +16,23 @@ const Footer = () => (
         }
         right={
           <SideBySide
-            left={
-              <SideBySide
-                left={
-                  <>
-                    <h4>Footer header</h4>
-                    <div>
-                      <a href="/">Link</a>
-                    </div>
-                    <div>
-                      <a href="/">Link</a>
-                    </div>
-                    <div>
-                      <a href="/">Link</a>
-                    </div>
-                  </>
-                }
-                right={
-                  <>
-                    <h4>Footer header</h4>
-                    <div>
-                      <a href="/">Link</a>
-                    </div>
-                    <div>
-                      <a href="/">Link</a>
-                    </div>
-                    <div>
-                      <a href="/">Link</a>
-                    </div>
-                  </>
-                }
-              />
-            }
             right={
               <>
                 <h4>Follow us</h4>
-                <div>
-                  <a href="/">Link</a>
-                </div>
-                <div>
-                  <a href="/">Link</a>
-                </div>
-                <div>
-                  <a href="/">Link</a>
-                </div>
+                <span className={styles.socialLinks}>
+                  <a href="https://www.instagram.com/deloittedigitaluk" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon size="2x" icon={['fab', 'instagram']} />
+                  </a>
+                  <a href="https://www.facebook.com/DeloitteDigitalUK" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon size="2x" icon={['fab', 'facebook']} />
+                  </a>
+                  <a href="https://twitter.com/deloittedigi_uk" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon size="2x" icon={['fab', 'twitter']} />
+                  </a>
+                  <a href="https://open.spotify.com/user/bbc_playlister/playlist/2ahRj2qynhNin0a898mGWc?si=s7vTyE6ATgyjFivRrvdAaQ" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon size="2x" icon={['fab', 'spotify']} />
+                  </a>
+                </span>
               </>
             }
           />

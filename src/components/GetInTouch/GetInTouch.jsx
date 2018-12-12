@@ -12,13 +12,9 @@ const GetInTouch = () => (
             <h2>Drop in for a cuppa</h2>
             <p>Come and have a chat over a cup of tea or coffee…</p>
             <p>
-              Drop us a line on{' '}
-              <a href="tel:+4401234567890">+44 (0) 1234 567890</a>
-            </p>
-            <p>
               Email us{' '}
-              <a href="mailto:add-a-real-email@deloitte.co.uk">
-                add-a-real-email@deloitte.co.uk
+              <a href="mailto:dd-careers@deloitte.co.uk">
+                dd-careers@deloitte.co.uk
               </a>
             </p>
           </>
