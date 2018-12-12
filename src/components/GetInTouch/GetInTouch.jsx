@@ -24,7 +24,7 @@ const GetInTouch = () => (
             left={
               <>
                 <h4>You can find us at</h4>
-                <div>Floor 7</div>
+                <div>Floor 6</div>
                 <div>Bull Wharf</div>
                 <div>Redcliff St</div>
                 <div>Bristol</div>
@@ -40,9 +40,7 @@ const GetInTouch = () => (
                 </p>
                 <p>
                   Email us{' '}
-                  <a href="mailto:swth@deloitte.co.uk">
-                    swth@deloitte.co.uk
-                  </a>
+                  <a href="mailto:swth@deloitte.co.uk">swth@deloitte.co.uk</a>
                 </p>
               </>
             }

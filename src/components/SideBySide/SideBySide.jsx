@@ -4,8 +4,8 @@ import styles from './SideBySide.module.scss';
 
 const SideBySide = ({ left, right }) => (
   <div className={styles.sideBySide}>
-    <div>{left}</div>
-    <div>{right}</div>
+    <div className={styles.left}>{left}</div>
+    <div className={styles.right}>{right}</div>
   </div>
 );
 

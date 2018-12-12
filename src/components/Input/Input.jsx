@@ -1,9 +1,13 @@
 import React from 'react';
+import cx from 'classnames';
 import styles from './Input.module.scss';
 
-const Input = ({ id, placeholder, ...rest }) => (
+const Input = ({ id, placeholder, isLabelVisible = false, ...rest }) => (
   <div className={styles.container}>
-    <label className={styles.label} htmlFor={id}>
+    <label
+      className={cx(styles.label, { [styles.isNotVisible]: !isLabelVisible })}
+      htmlFor={id}
+    >
       {placeholder}
     </label>
     <input

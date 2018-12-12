@@ -13,9 +13,7 @@ const Landing = () => (
       </div>
       <div className={styles.oval}>
         <h1 className={styles.h1}>South West Technology Hub</h1>
-        <h2 className={styles.h2}>
-          We are landing
-        </h2>
+        <h2 className={styles.h2}>We are landing</h2>
       </div>
     </WidthControl>
   </div>

@@ -10,6 +10,16 @@
   width: 20px;
   background-color: #fff;
   vertical-align: middle;
+
+  &:checked {
+    &::before {
+      color: black;
+      content: '\2713';
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 .label {

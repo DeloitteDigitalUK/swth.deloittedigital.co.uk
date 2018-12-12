@@ -1,4 +1,5 @@
 import React from 'react';
+import uuid from 'uuid/v4';
 import SideBySide from '../components/SideBySide';
 import config from '../config';
 import styles from './JobsContainer.module.scss';
@@ -44,7 +45,7 @@ class JobsContainer extends React.Component {
                           : defaultNumberofJobsToShow
                       )
                       .map((job, i) => (
-                        <div className={styles.job}>
+                        <div key={uuid()} className={styles.job}>
                           <li className={styles.jobTitle}>{job.title}</li>
                           <button
                             className={styles.apply}
