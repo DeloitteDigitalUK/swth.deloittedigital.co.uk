@@ -1,28 +1,7 @@
+.closeIcon {
+  color: #9de201;
+}
+
 .closeButton {
-  background-color: #9de201;
-  border-radius: 50%;
   border: 0;
-  display: inline-block;
-  font-size: 0;
-  height: 50px;
-  position: relative;
-  width: 50px;
-
-  &::before,
-  &::after {
-    position: absolute;
-    left: 25%;
-    width: 50%;
-    height: 2px;
-    content: '';
-    background: #fff;
-  }
-
-  &::before {
-    transform: rotate(45deg);
-  }
-
-  &::after {
-    transform: rotate(-45deg);
-  }
 }

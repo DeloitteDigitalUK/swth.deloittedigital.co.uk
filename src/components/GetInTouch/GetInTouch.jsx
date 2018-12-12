@@ -40,8 +40,8 @@ const GetInTouch = () => (
                 </p>
                 <p>
                   Email us{' '}
-                  <a href="mailto:add-a-real-email@deloitte.co.uk">
-                    add-a-real-email@deloitte.co.uk
+                  <a href="mailto:swth@deloitte.co.uk">
+                    swth@deloitte.co.uk
                   </a>
                 </p>
               </>
