@@ -24,7 +24,7 @@ const GetInTouch = () => (
             left={
               <>
                 <h4>You can find us at</h4>
-                <div>Floor 6</div>
+                <div>Floor 5</div>
                 <div>Bull Wharf</div>
                 <div>Redcliff St</div>
                 <div>Bristol</div>

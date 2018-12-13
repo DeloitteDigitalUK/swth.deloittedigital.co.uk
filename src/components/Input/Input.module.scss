@@ -8,7 +8,9 @@
   width: 100%;
 
   &::placeholder {
+    color: #999;
     font-weight: 700;
+    opacity: 100;
   }
 }
 

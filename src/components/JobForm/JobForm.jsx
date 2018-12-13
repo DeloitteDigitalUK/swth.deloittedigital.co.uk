@@ -6,6 +6,7 @@ import styles from './JobForm.module.scss';
 import config from '../../config';
 import CloseButton from '../CloseButton';
 import Input from '../Input';
+import FileInput from '../FileInput';
 import Checkbox from '../Checkbox';
 import Button from '../Button';
 
@@ -80,16 +81,14 @@ const JobForm = ({ jobId, onClose }) => {
               id="Field12"
               name="Field12"
             />
-            {/* <Input
-              type="file"
-              placeholder="Have you got a CV?"
+            <FileInput
+              label="Have a CV or Portfolio?"
               id="Field216"
               name="Field216"
               size="12"
               data-file-max-size="10"
               data-wufoo-field="file-upload"
-              isLabelVisible={true}
-            /> */}
+            />
             <Checkbox
               id="Field15"
               name="Field15"
