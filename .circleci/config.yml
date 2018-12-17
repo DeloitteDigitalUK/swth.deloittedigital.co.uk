@@ -49,7 +49,10 @@ jobs:
       - attach_workspace:
           at: ~/repo
       - run:
-          name: Deploy to S3
+          name: Deploy to Deloitte Digital
+          command: aws s3 sync public s3://develop.swth.deloittedigital.co.uk --delete
+      - run:
+          name: Deploy to Deloitte
           command: aws s3 sync public s3://develop.swth.deloitte.co.uk --delete
   deploy-master:
     docker:
@@ -59,7 +62,10 @@ jobs:
       - attach_workspace:
           at: ~/repo
       - run:
-          name: Deploy to S3
+          name: Deploy to Deloitte Digital
+          command: aws s3 sync public s3://swth.deloittedigital.co.uk --delete
+      - run:
+          name: Deploy to Deloitte
           command: aws s3 sync public s3://swth.deloitte.co.uk --delete
 workflows:
   version: 2

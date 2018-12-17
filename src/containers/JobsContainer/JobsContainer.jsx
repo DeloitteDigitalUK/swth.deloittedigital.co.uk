@@ -1,11 +1,12 @@
 import React from 'react';
 import uuid from 'uuid/v4';
-import SideBySide from '../components/SideBySide';
-import config from '../config';
+import SideBySide from '../../components/SideBySide';
+import config from '../../config';
 import styles from './JobsContainer.module.scss';
-import Button from '../components/Button';
-import JobForm from '../components/JobForm/JobForm';
-import WidthControl from '../components/WidthControl';
+import Button from '../../components/Button';
+import JobForm from '../../components/JobForm/JobForm';
+import WidthControl from '../../components/WidthControl';
+import ContentContainer from '../ContentContainer';
 
 const defaultNumberofJobsToShow = 4;
 
@@ -24,14 +25,7 @@ class JobsContainer extends React.Component {
           <WidthControl>
             <SideBySide
               left={
-                <>
-                  <h2>Join us</h2>
-                  <p>
-                    {
-                      "We're on the look out for talented individuals to join our rapidly growing design, technical and engineering teams, to work on the future together."
-                    }
-                  </p>
-                </>
+                <ContentContainer section="join-us" />
               }
               right={
                 <>
@@ -60,7 +54,7 @@ class JobsContainer extends React.Component {
                 </>
               }
             />
-            <div className={styles.center}>
+            <div className={styles.buttonContainer}>
               <Button
                 onClick={() =>
                   this.setState({ isJobsListExpanded: !isJobsListExpanded })

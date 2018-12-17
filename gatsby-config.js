@@ -11,6 +11,13 @@ module.exports = {
         path: `${__dirname}/src`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'markdown',
+        path: `${__dirname}/src/content`,
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -26,8 +33,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-transformer-remark',
   ],
-}
+};

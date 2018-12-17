@@ -10,6 +10,8 @@ import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import HomePage from './HomePage/HomePage';
 import Layout from '../layout';
 
+import '../ascii';
+
 library.add(faFacebook);
 library.add(faSpotify);
 library.add(faTwitter);

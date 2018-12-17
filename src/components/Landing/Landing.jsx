@@ -2,6 +2,7 @@ import React from 'react';
 
 import Logo from '../Logo';
 import WidthControl from '../WidthControl';
+import ContentContainer from '../../containers/ContentContainer';
 
 import styles from './Landing.module.scss';
 
@@ -11,9 +12,8 @@ const Landing = () => (
       <div className={styles.logo}>
         <Logo />
       </div>
-      <div className={styles.oval}>
-        <h1 className={styles.h1}>South West Technology Hub</h1>
-        <h2 className={styles.h2}>We are landing</h2>
+      <div className={styles.text}>
+        <ContentContainer section="landing" />
       </div>
     </WidthControl>
   </div>
