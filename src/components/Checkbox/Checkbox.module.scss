@@ -24,4 +24,8 @@
 
 .label {
   margin-left: 40px;
+
+  @media (max-width: 600px) {
+    margin-left: 10px;
+  }
 }
