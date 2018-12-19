@@ -12,14 +12,7 @@ const GetInTouch = () => (
           <ContentContainer section="drop-in" />
         }
         right={
-          <SideBySide
-            left={
-              <ContentContainer section="find-us" />
-            }
-            right={
-              <ContentContainer section="new-business" />
-            }
-          />
+          <ContentContainer section="find-us" />
         }
       />
     </WidthControl>
