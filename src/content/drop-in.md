@@ -2,8 +2,6 @@
 section: "drop-in"
 ---
 
-## Drop in for a cuppa
-
-Come and have a chat over a cup of tea or coffee…
+## Drop us a line
 
 Email us [swth@deloitte.co.uk](mailto:swth@deloitte.co.uk)
