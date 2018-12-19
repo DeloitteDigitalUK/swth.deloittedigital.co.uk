@@ -24,9 +24,7 @@ class JobsContainer extends React.Component {
         <div className={styles.jobsContainer}>
           <WidthControl>
             <SideBySide
-              left={
-                <ContentContainer section="join-us" />
-              }
+              left={<ContentContainer section="join-us" />}
               right={
                 <>
                   <h4>Positions</h4>

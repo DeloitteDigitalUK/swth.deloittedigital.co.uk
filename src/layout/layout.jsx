@@ -21,8 +21,11 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                "We're Deloitte Digital! Shaped around the Transformation Journey, our blend of services and breadth of talent circle around the business, employee and customer to Imagine, Deliver & Run the Future.",
+            },
           ]}
         >
           <html lang="en" />

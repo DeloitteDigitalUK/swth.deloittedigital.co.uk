@@ -9,11 +9,10 @@ const Introduction = () => (
   <WidthControl>
     <SideBySide
       left={<ImageCoveredWithBlocks />}
-      right={(
+      right={
         <div className={styles.right}>
           <ContentContainer section="about-us" />
         </div>
-      )
       }
     />
   </WidthControl>

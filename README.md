@@ -33,8 +33,8 @@ The site is set to automatically deploy when merging a pull request to the follo
 
 |Branch|Status|Environment|
 |-|-|-|
-| `develop`|[![CircleCI](https://circleci.com/gh/DeloitteDigitalUK/swth.deloitte.co.uk/tree/develop.svg?style=svg&circle-token=fd7aadb9fca7ba505493ded1acbb21d7a2a99725)](https://circleci.com/gh/DeloitteDigitalUK/swth.deloitte.co.uk/tree/develop)| https://develop.swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com|
-|`master`|[![CircleCI](https://circleci.com/gh/DeloitteDigitalUK/swth.deloitte.co.uk/tree/master.svg?style=svg&circle-token=fd7aadb9fca7ba505493ded1acbb21d7a2a99725)](https://circleci.com/gh/DeloitteDigitalUK/swth.deloitte.co.uk/tree/master)| https://swth.deloittedigital.co.uk|
+| `develop`|[![CircleCI](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/develop.svg?style=svg&circle-token=fd7aadb9fca7ba505493ded1acbb21d7a2a99725)](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/develop)| http://develop.swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com|
+|`master`|[![CircleCI](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/master.svg?style=svg&circle-token=fd7aadb9fca7ba505493ded1acbb21d7a2a99725)](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/master)| http://swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com|
 
 **Note that merging to master will deploy the live site!**
 
@@ -54,7 +54,7 @@ If you would like to update content and don't have any experience with React or 
 * Make your changes
 * Commit changes by selecting "Create a new branch for this commit and start a pull request" against the develop branch
 * Get someone to review and merge your changes to the develop branch
-* Preview your changes on the [develop site](https://develop.swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com) (takes roughly 2 minutes to update)
+* Preview your changes on the [develop site](http://develop.swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com) (takes roughly 2 minutes to update)
 * Raise a pull request from the develop branch to the master branch
 * Get someone to review and merge your changes to the master branch
-* Once merged to master, **your changes will be [live](https://swth.deloittedigital.co.uk)!**  (takes roughly 2 minutes to update)
+* Once merged to master, **your changes will be [live](http://swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com)!**  (takes roughly 2 minutes to update)
