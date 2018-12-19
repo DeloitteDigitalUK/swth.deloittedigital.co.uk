@@ -2,7 +2,7 @@ import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faFacebook,
-  faSpotify,
+  faGithub,
   faTwitter,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
@@ -13,7 +13,7 @@ import Layout from '../layout';
 import '../ascii';
 
 library.add(faFacebook);
-library.add(faSpotify);
+library.add(faGithub);
 library.add(faTwitter);
 library.add(faInstagram);
 library.add(faTimesCircle);

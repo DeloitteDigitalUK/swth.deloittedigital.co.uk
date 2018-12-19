@@ -42,11 +42,11 @@ const Footer = () => (
                     <FontAwesomeIcon size="2x" icon={['fab', 'twitter']} />
                   </a>
                   <a
-                    href="https://open.spotify.com/user/bbc_playlister/playlist/2ahRj2qynhNin0a898mGWc?si=s7vTyE6ATgyjFivRrvdAaQ"
+                    href="https://github.com/DeloitteDigitalUK/swth.deloittedigital.co.uk"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon size="2x" icon={['fab', 'spotify']} />
+                    <FontAwesomeIcon size="2x" icon={['fab', 'github']} />
                   </a>
                 </span>
               </>
