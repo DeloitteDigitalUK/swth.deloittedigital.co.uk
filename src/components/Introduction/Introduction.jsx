@@ -6,16 +6,22 @@ import ContentContainer from '../../containers/ContentContainer';
 import styles from './Introduction.module.scss';
 
 const Introduction = () => (
-  <WidthControl>
-    <SideBySide
-      left={<ImageCoveredWithBlocks />}
-      right={
-        <div className={styles.right}>
-          <ContentContainer section="about-us" />
-        </div>
-      }
-    />
-  </WidthControl>
+  <div className="background-color-yellow">
+    <WidthControl backgroundColor="yellow">
+      <SideBySide
+        left={(
+          <ImageCoveredWithBlocks backgroundColor="yellow" />
+        )}
+        right={
+          <div className={styles.right}>
+            <div className="heading-underline-yellow">
+              <ContentContainer section="about-us" />
+            </div>
+          </div>
+        }
+      />
+    </WidthControl>
+  </div>
 );
 
 export default Introduction;

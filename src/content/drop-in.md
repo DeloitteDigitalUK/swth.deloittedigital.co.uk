@@ -3,8 +3,8 @@
 section: "drop-in"
 ---
 
-## Drop us a line
+## Get in touch
 
-Want to get in touch?
+Come and have a chat over a cup of tea or coffee...
 
 Email us at [swth@deloitte.co.uk](mailto:swth@deloitte.co.uk)

@@ -8,7 +8,11 @@ const GetInTouch = () => (
   <div className={styles.getInTouch}>
     <WidthControl>
       <SideBySide
-        left={<ContentContainer section="drop-in" />}
+        left={(
+          <div className="heading-underline-blue">
+            <ContentContainer section="drop-in" />
+          </div>
+          )}
         right={<ContentContainer section="find-us" />}
       />
     </WidthControl>

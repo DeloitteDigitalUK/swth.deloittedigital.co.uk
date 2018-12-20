@@ -1,8 +1,10 @@
+@import '../../layout/variables.scss';
+
 .sideBySide {
   display: flex;
   width: 100%;
 
-  @media (max-width: 600px) {
+  @media (max-width: $breakpoint-mobile) {
     flex-direction: column;
   }
 

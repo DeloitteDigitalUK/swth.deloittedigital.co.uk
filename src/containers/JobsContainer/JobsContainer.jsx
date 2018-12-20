@@ -24,10 +24,14 @@ class JobsContainer extends React.Component {
         <div className={styles.jobsContainer}>
           <WidthControl>
             <SideBySide
-              left={<ContentContainer section="join-us" />}
+              left={
+                <div className="heading-underline-teal">
+                  <ContentContainer section="join-us" />
+                </div>
+              }
               right={
-                <>
-                  <h4>Positions</h4>
+                <div className={styles.positionsContainer}>
+                  <h3>Positions</h3>
                   <ul className={styles.positions}>
                     {config.jobs
                       .slice(
@@ -49,22 +53,20 @@ class JobsContainer extends React.Component {
                         </div>
                       ))}
                   </ul>
-                </>
+                </div>
               }
             />
-            {
-              config.jobs.length > defaultNumberofJobsToShow && (
-                <div className={styles.buttonContainer}>
-                  <Button
-                    onClick={() =>
-                      this.setState({ isJobsListExpanded: !isJobsListExpanded })
-                    }
-                  >
-                    {isJobsListExpanded ? 'View less' : 'View more'}
-                  </Button>
-                </div>
-              )
-            }
+            {config.jobs.length > defaultNumberofJobsToShow && (
+              <div className={styles.buttonContainer}>
+                <Button
+                  onClick={() =>
+                    this.setState({ isJobsListExpanded: !isJobsListExpanded })
+                  }
+                >
+                  {isJobsListExpanded ? 'View less' : 'View more'}
+                </Button>
+              </div>
+            )}
           </WidthControl>
         </div>
         {jobIdToShow !== null && (

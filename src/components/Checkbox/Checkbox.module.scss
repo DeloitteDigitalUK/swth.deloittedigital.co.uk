@@ -1,3 +1,5 @@
+@import '../../layout/variables.scss';
+
 .container {
   margin-bottom: 20px;
 }
@@ -25,7 +27,7 @@
 .label {
   margin-left: 40px;
 
-  @media (max-width: 600px) {
+  @media (max-width: $breakpoint-mobile) {
     margin-left: 10px;
   }
 }

@@ -50,7 +50,15 @@ const JobForm = ({ jobId, onClose }) => {
           ))}
           <p>
             <i>
-              Detailed job description <a href={withPrefix(job.url)} target="_blank" rel="noopener noreferrer">here</a>.
+              Detailed job description{' '}
+              <a
+                href={withPrefix(job.url)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
             </i>
           </p>
         </div>
