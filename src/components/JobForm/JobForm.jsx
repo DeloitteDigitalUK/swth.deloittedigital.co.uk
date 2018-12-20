@@ -1,5 +1,6 @@
 import React from 'react';
 import uuid from 'uuid/v4';
+import { withPrefix } from 'gatsby';
 
 import styles from './JobForm.module.scss';
 
@@ -49,7 +50,7 @@ const JobForm = ({ jobId, onClose }) => {
           ))}
           <p>
             <i>
-              Detailed job description <a href={job.url}>here</a>.
+              Detailed job description <a href={withPrefix(job.url)} target="_blank" rel="noopener noreferrer">here</a>.
             </i>
           </p>
         </div>

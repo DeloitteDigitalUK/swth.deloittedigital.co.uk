@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Deloitte South West Technology Hub',
   },
+  pathPrefix: '/',
   plugins: [
     'gatsby-plugin-react-helmet',
     {

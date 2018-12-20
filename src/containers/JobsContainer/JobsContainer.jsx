@@ -52,15 +52,19 @@ class JobsContainer extends React.Component {
                 </>
               }
             />
-            <div className={styles.buttonContainer}>
-              <Button
-                onClick={() =>
-                  this.setState({ isJobsListExpanded: !isJobsListExpanded })
-                }
-              >
-                {isJobsListExpanded ? 'View less' : 'View more'}
-              </Button>
-            </div>
+            {
+              config.jobs.length > defaultNumberofJobsToShow && (
+                <div className={styles.buttonContainer}>
+                  <Button
+                    onClick={() =>
+                      this.setState({ isJobsListExpanded: !isJobsListExpanded })
+                    }
+                  >
+                    {isJobsListExpanded ? 'View less' : 'View more'}
+                  </Button>
+                </div>
+              )
+            }
           </WidthControl>
         </div>
         {jobIdToShow !== null && (
