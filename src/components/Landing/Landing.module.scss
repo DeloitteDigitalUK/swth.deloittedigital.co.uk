@@ -8,9 +8,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-
-  @media (max-width: $breakpoint-mobile) {
-    height: 70vh;
+  
+  @media (max-width: $breakpoint-tablet) {
+    background-size: contain;
   }
 
   h1 {
@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
 
-  @media (max-width: $breakpoint-mobile) {
+  @media (max-width: $breakpoint-tablet) {
     height: 40vh;
   }
 }

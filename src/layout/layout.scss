@@ -732,6 +732,10 @@ pre tt:after {
     padding-right: 4px;
     font-size: 3.75rem;
     font-family: 'Chronicle';
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 2.75rem;
+    }
   }
 }
 
