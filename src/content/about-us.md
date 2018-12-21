@@ -3,8 +3,8 @@
 section: "about-us"
 ---
 
-## We are in the future business
+## About us
 
-Our journey is one of business, technology and creativity that today enables us to imagine, deliver and run the future.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id posuere urna, eget feugiat augue. Donec eu eros sem.
 
-We’re proven, and trusted to do this at scale, in partnership with the biggest businesses and brands in the world today.
+Proin pharetra sapien purus, ut varius ante eleifend eu. Fusce vel imperdiet orci. Vestibulum vitae lorem congue, sagittis nunc ac, aliquam urna.

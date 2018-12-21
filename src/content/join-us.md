@@ -5,4 +5,4 @@ section: "join-us"
 
 ##Join us
 
-We're on the look out for talented individuals to join our rapidly growing design, technical and engineering teams, to work on the future together.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis varius ex eleifend, sagittis sapien et, mollis elit. Morbi eget nisl vel tortor pellentesque interdum. Curabitur tristique tellus vel malesuada varius.
