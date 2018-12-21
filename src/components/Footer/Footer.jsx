@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SideBySide from '../SideBySide';
 import WidthControl from '../WidthControl';
+import ContentContainer from '../../containers/ContentContainer';
 import Logo from '../Logo';
 import styles from './Footer.module.scss';
 
@@ -16,6 +17,12 @@ const Footer = () => (
         }
         right={
           <SideBySide
+            left={
+              <SideBySide
+                left={<ContentContainer section="footer-1" />}
+                right={<ContentContainer section="footer-2" />}
+              />
+            }
             right={
               <>
                 <h4>Follow us</h4>

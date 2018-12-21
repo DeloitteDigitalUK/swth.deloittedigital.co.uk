@@ -32,6 +32,22 @@ const config = {
       ],
       url: '/assets/pdf/jobs/java.pdf',
     },
+    {
+      title: 'Senior Tester',
+      description: [
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque vel ullamcorper consectetur, ex nibh accumsan turpis, commodo viverra erat erat eu neque. Donec viverra accumsan nulla a malesuada.',
+        'Suspendisse convallis, massa eu elementum convallis, arcu nisl ultricies felis, dictum imperdiet quam tortor eu leo. Vivamus nec nibh at orci tempor pretium ut ultrices est. Sed luctus aliquam lacus, sit amet accumsan leo bibendum eu. Sed consequat posuere risus et blandit. Duis mollis eu ex et rutrum. Donec a scelerisque sapien, vel imperdiet sem. Maecenas auctor tempor diam, at ornare orci ullamcorper at. In hac habitasse platea dictumst. Nunc at lacinia sapien. Aenean lacinia, massa ac accumsan efficitur, nulla massa interdum sem, nec fringilla tellus augue ac enim.',
+      ],
+      url: '/assets/pdf/jobs/tester-senior.pdf',
+    },
+    {
+      title: 'Tester',
+      description: [
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque vel ullamcorper consectetur, ex nibh accumsan turpis, commodo viverra erat erat eu neque. Donec viverra accumsan nulla a malesuada.',
+        'Suspendisse convallis, massa eu elementum convallis, arcu nisl ultricies felis, dictum imperdiet quam tortor eu leo. Vivamus nec nibh at orci tempor pretium ut ultrices est. Sed luctus aliquam lacus, sit amet accumsan leo bibendum eu. Sed consequat posuere risus et blandit. Duis mollis eu ex et rutrum. Donec a scelerisque sapien, vel imperdiet sem. Maecenas auctor tempor diam, at ornare orci ullamcorper at. In hac habitasse platea dictumst. Nunc at lacinia sapien. Aenean lacinia, massa ac accumsan efficitur, nulla massa interdum sem, nec fringilla tellus augue ac enim.',
+      ],
+      url: '/assets/pdf/jobs/tester.pdf',
+    },
   ],
 };
 
