@@ -3,14 +3,16 @@
 .landing {
   height: 100vh;
   background-color: #000;
-  background-image: url('./images/background.svg');
+  background-image: url('./images/DDSW_Desktop_BannerWP.png');
   background-position: center 40%;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   
   @media (max-width: $breakpoint-tablet) {
+    background-image: url('./images/Mobile_Background_WP.png');
     background-size: contain;
+    background-position: center top;
   }
 
   h1 {
@@ -20,22 +22,37 @@
     background-color: #fff;
     padding: 10px;
     font-family: 'Chronicle', serif;
+
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 2.25rem;
+    }
   }
 
   h2 {
-    text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 4px;
     text-align: center;
+
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 1.25rem;
+    }
   }
 }
 
 .logo {
-  height: 10vh;
+  height: 20vh;
+
+  @media (max-width: $breakpoint-tablet) {
+    height: 60vh;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    height: 40vh;
+  }
 }
 
 .text {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,5 +60,9 @@
 
   @media (max-width: $breakpoint-tablet) {
     height: 40vh;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    height: 55vh;
   }
 }
