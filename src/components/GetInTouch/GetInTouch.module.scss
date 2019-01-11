@@ -1,4 +1,15 @@
+@import '../../layout/variables.scss';
+
 .getInTouch {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px 0px;
+
+  @media (max-width: $breakpoint-tablet) {
+    h3 {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    padding: 40px 0px;
+  }
 }

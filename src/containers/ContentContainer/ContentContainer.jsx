@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
+import styles from './ContentContainer.module.scss';
 
 const Introduction = ({ section }) => (
   <StaticQuery
@@ -24,7 +25,10 @@ const Introduction = ({ section }) => (
 
       return (
         foundSection && (
-          <div dangerouslySetInnerHTML={{ __html: foundSection.node.html }} /> // eslint-disable-line
+          <div
+            className={styles.content}
+            dangerouslySetInnerHTML={{ __html: foundSection.node.html }}
+          /> // eslint-disable-line
         )
       );
     }}

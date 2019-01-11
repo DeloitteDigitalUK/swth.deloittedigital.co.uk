@@ -1,4 +1,21 @@
+@import '../../layout/variables.scss';
+
+.left {
+  align-self: center;
+
+  @media (max-width: $breakpoint-mobile) {
+    align-self: auto;
+  }
+}
+
 .right {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  align-self: center;
+
+  @media (max-width: $breakpoint-tablet) {
+    p {
+      margin: 0px;
+      max-width: 95%;
+    }
+  }
 }

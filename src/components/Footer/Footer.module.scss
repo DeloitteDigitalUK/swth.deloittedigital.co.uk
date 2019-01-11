@@ -1,8 +1,10 @@
+@import '../../layout/variables.scss';
+
 .footer {
   background-color: #000;
   color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   a {
     color: #fff;
@@ -15,5 +17,41 @@
 
   a {
     margin-right: 20px;
+  }
+}
+
+.right {
+  padding-top: 0px;
+}
+
+.left {
+  padding-bottom: 100px;
+  @media (max-width: $breakpoint-tablet) {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+
+  span {
+    height: 70px;
+    width: 155px;
+  }
+  p {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+  }
+}
+
+.rightBottom {
+  padding-top: 0px;
+  @media (max-width: $breakpoint-tablet) {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.sideBySideOverides {
+  @media (max-width: $breakpoint-tablet) {
+    flex-direction: column;
+    padding-bottom: 0px;
   }
 }

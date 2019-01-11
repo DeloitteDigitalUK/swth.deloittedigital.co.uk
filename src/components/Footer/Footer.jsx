@@ -10,13 +10,17 @@ const Footer = () => (
   <div className={styles.footer}>
     <WidthControl>
       <SideBySide
+        sideBySideOverides={styles.sideBySideOverides}
         left={
           <>
             <Logo />
+            <p>CREATIVE BUSINESS</p>
           </>
         }
+        leftStyles={styles.left}
         right={
           <SideBySide
+            sideBySideOverides={styles.sideBySideOverides}
             left={
               <SideBySide
                 left={<ContentContainer section="footer-1" />}
@@ -28,11 +32,11 @@ const Footer = () => (
                 <h4>Follow us</h4>
                 <span className={styles.socialLinks}>
                   <a
-                    href="https://www.instagram.com/deloittedigitaluk"
+                    href="https://twitter.com/deloittedigi_uk"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon size="2x" icon={['fab', 'instagram']} />
+                    <FontAwesomeIcon size="2x" icon={['fab', 'twitter']} />
                   </a>
                   <a
                     href="https://www.facebook.com/DeloitteDigitalUK"
@@ -42,11 +46,11 @@ const Footer = () => (
                     <FontAwesomeIcon size="2x" icon={['fab', 'facebook']} />
                   </a>
                   <a
-                    href="https://twitter.com/deloittedigi_uk"
+                    href="https://www.instagram.com/deloittedigitaluk"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon size="2x" icon={['fab', 'twitter']} />
+                    <FontAwesomeIcon size="2x" icon={['fab', 'instagram']} />
                   </a>
                   <a
                     href="https://github.com/DeloitteDigitalUK/swth.deloittedigital.co.uk"
@@ -58,8 +62,10 @@ const Footer = () => (
                 </span>
               </>
             }
+            rightStyles={styles.rightBottom}
           />
         }
+        rightStyles={styles.right}
       />
     </WidthControl>
   </div>
