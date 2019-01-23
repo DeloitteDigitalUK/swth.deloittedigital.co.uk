@@ -1,6 +1,6 @@
 @import '../../layout/variables.scss';
 
-.imageCoveredWithBlocks {
+.image {
   height: 350px;
   background: url('./images/gif.gif');
   background-size: cover;
@@ -18,41 +18,4 @@
     margin-bottom: 40px;
     height: 200px;
   }
-}
-
-.block1,
-.block3,
-.block4,
-.block5,
-.block6 {
-  background-color: $color-yellow;
-}
-
-.block1,
-.block2,
-.block3,
-.block4,
-.block5,
-.block6 {
-  height: percentage(1/6);
-}
-
-.block1 {
-  width: percentage(1/9);
-}
-
-.block3 {
-  width: percentage(1/12);
-}
-
-.block4 {
-  width: percentage(1/6);
-}
-
-.block5 {
-  width: percentage(1/12);
-}
-
-.block6 {
-  width: percentage(1/3);
 }
