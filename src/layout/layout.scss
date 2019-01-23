@@ -432,11 +432,7 @@ p {
   padding-top: 0;
   line-height: 2rem;
   margin-bottom: 1.45rem;
-  font-size: 20px;
-
-  @media (max-width: $breakpoint-tablet) {
-    font-size: 16px;
-  }
+  font-size: 16px;
 }
 
 figure {
@@ -729,9 +725,9 @@ pre tt:after {
       transparent 100%,
       transparent
     );
-    background-position: center 100%;
+    background-position: center 90%;
     background-repeat: no-repeat;
-    background-size: 100% 30%;
+    background-size: 100% 20%;
     display: inline-block;
     padding-left: 4px;
     padding-right: 4px;
