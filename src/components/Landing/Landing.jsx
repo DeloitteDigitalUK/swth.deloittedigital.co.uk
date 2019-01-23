@@ -8,10 +8,10 @@ import styles from './Landing.module.scss';
 
 const Landing = () => (
   <div className={styles.landing}>
+    <div className={styles.logo}>
+      <Logo />
+    </div>
     <WidthControl>
-      <div className={styles.logo}>
-        <Logo />
-      </div>
       <div className={styles.text}>
         <ContentContainer section="landing" />
       </div>
