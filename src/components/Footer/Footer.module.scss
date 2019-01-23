@@ -4,7 +4,7 @@
   background-color: #000;
   color: #fff;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 256px;
 
   a {
     color: #fff;
@@ -41,6 +41,10 @@
     font-size: 14px;
     letter-spacing: 0.2em;
   }
+}
+
+.leftBottom {
+  flex: 3 1;
 }
 
 .rightBottom {
