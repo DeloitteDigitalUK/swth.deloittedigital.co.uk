@@ -3,24 +3,24 @@
 .landing {
   height: 100vh;
   background-color: #000;
-  background-image: url('./images/DDSW_Desktop_BannerWP.png');
+  background-image: url('./images/background-desktop.png');
   background-position: center 40%;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 
   @media (max-width: $breakpoint-tablet) {
-    background-image: url('./images/Tablet_Background.png');
+    background-image: url('./images/background-tablet.png');
     background-size: 120%;
     background-position: center top;
-    height: 50vh;
+    height: 70vh;
   }
 
   @media (max-width: $breakpoint-mobile) {
-    background-image: url('./images/Mobile_Background_WP.png');
+    background-image: url('./images/background-mobile.png');
     background-size: 90%;
     background-position: center top;
-    height: 70vh;
+    height: 80vh;
   }
 
   h1 {
@@ -30,6 +30,7 @@
     background-color: #fff;
     padding: 10px;
     font-family: 'Chronicle', serif;
+    font-size: 2.5rem;
 
     @media (max-width: $breakpoint-tablet) {
       font-size: 2.25rem;
@@ -42,12 +43,9 @@
 
   h2 {
     font-weight: 200;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     text-align: center;
-
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 1.25rem;
-    }
+    font-size: 1.25rem;
 
     @media (max-width: $breakpoint-mobile) {
       font-size: 1rem;
@@ -57,7 +55,7 @@
 
 .logo {
   padding-top: 40px;
-  height: 20vh;
+  height: 18vh;
   display: flex;
   padding-left: 40px;
 
@@ -75,10 +73,12 @@
   align-items: center;
 
   @media (max-width: $breakpoint-tablet) {
-    height: 36vh;
+    height: 50vh;
+    justify-content: flex-end;
   }
 
   @media (max-width: $breakpoint-mobile) {
-    height: 40vh;
+    height: 45vh;
+    justify-content: center;
   }
 }

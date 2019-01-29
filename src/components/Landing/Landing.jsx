@@ -11,11 +11,13 @@ const Landing = () => (
     <div className={styles.logo}>
       <Logo />
     </div>
-    <WidthControl>
-      <div className={styles.text}>
-        <ContentContainer section="landing" />
-      </div>
-    </WidthControl>
+    <div className={styles.textContainer}>
+      <WidthControl>
+        <div className={styles.text}>
+          <ContentContainer section="landing" />
+        </div>
+      </WidthControl>
+    </div>
   </div>
 );
 
