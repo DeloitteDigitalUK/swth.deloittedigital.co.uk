@@ -34,7 +34,7 @@ The site is set to automatically deploy when merging a pull request to the follo
 |Branch|Status|Environment|
 |-|-|-|
 | `develop`|[![CircleCI](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/develop.svg?style=svg&circle-token=fd7aadb9fca7ba505493ded1acbb21d7a2a99725)](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/develop)| http://develop.swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com|
-|`master`|[![CircleCI](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/master.svg?style=svg&circle-token=fd7aadb9fca7ba505493ded1acbb21d7a2a99725)](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/master)| http://swth.deloittedigital.co.uk.s3-website.eu-west-2.amazonaws.com|
+|`master`|[![CircleCI](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/master.svg?style=svg&circle-token=fd7aadb9fca7ba505493ded1acbb21d7a2a99725)](https://circleci.com/gh/DeloitteDigitalUK/swth.deloittedigital.co.uk/tree/master)| http://swth.deloittedigital.co.uk|
 
 **Note that merging to master will deploy the live site!**
 
